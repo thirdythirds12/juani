@@ -8,12 +8,16 @@ body {
 
 #app {
     font-family: $secondary_font;
-    background-color: $dirty-white;
+    background-color: white;
 }
 
 h1,
 h2 {
     font-family: $primary_font;
+}
+
+h2 {
+    font-weight: bold!important;
 }
 
 #portfooter {
@@ -29,6 +33,9 @@ h2 {
     color: $dirty-white;
     .row {
         margin: 0 auto;
+        @media only screen and (max-width: 568px) {
+            padding-top: 5%;
+        }
     }
     p {
         margin: 1rem 0;
@@ -37,6 +44,17 @@ h2 {
         width: 7%;
         height: auto;
         padding: 1% 0;
+        @media only screen and (max-width: 568px) {
+            width: 20%;
+        }
+    }
+    .navbar-toggler {
+        @media only screen and (max-width: 767px) {
+            width: 100%;
+        }
+        &:focus {
+            outline: none;
+        }
     }
 }
 
@@ -145,4 +163,11 @@ nav {
 
 .page-title {
     opacity: .75 !important;
+}
+
+.aos-animate {
+    @media(max-width: 768px) {
+        opacity: 1!important;
+        transition-property: none!important;
+    }
 }

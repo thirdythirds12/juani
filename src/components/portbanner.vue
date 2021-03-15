@@ -5,11 +5,11 @@
     >
       <div class="row">
         <div class="col-md-12">
-          <img :src="bannerContent.img" alt="port-img" />
-          <h1 v-html="bannerContent.title" class="line-1 anim-typewriter"></h1>
-          <p v-html="bannerContent.subtitle"></p>
+          <img data-aos="flip-left" data-aos-duration="1500" :src="bannerContent.img" alt="port-img" />
+          <h1  v-html="bannerContent.title" class="line-1 anim-typewriter"></h1>
+          <p data-aos="fade-in" data-aos-duration="1500" v-html="bannerContent.subtitle"></p>
           <br />
-          <i :class="bannerContent.fontawesomeclass"></i>
+          <i data-aos="fade-in" data-aos-duration="1500" :class="bannerContent.fontawesomeclass"></i>
         </div>
       </div>
     </div>
@@ -20,6 +20,8 @@
 export default {
   name: "portbanner",
   props: ["banner-content"],
+
+  
 };
 </script>
 
@@ -33,17 +35,26 @@ export default {
   background-position: center center;
   .container-fluid {
     height: 70vh;
+    @media screen and (max-width: 1366px), screen and (max-height: 687px) {
+      height: 90vh;
+    }
     h1 {
       color: $dirty-white;
       font-weight: bold;
+      @media only screen and (max-width: 568px) {
+        font-size: 9vw;
+      }
     }
     p {
       color: $dirty-white;
     }
     img {
       height: auto;
-      width: 30%;
+      width: auto;
       padding-bottom: 2%;
+      @media only screen and (max-width: 767px) {
+        width: 50%;
+      }
     }
 
     i {
@@ -63,15 +74,15 @@ export default {
 
   /* Animation */
   .anim-typewriter {
-    animation: typewriter 4s steps(44) 1s 1 normal both,
-      blinkTextCursor 500ms steps(44) infinite normal;
+    animation: typewriter 3s steps(40) 0.5s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
   }
   @keyframes typewriter {
     from {
       width: 0;
     }
     to {
-      width: 11em;
+      width: 10em;
     }
   }
   @keyframes blinkTextCursor {
