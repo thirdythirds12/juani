@@ -29,7 +29,7 @@ export default {
 <style lang="scss">
 @import "../assets/styles/_website.scss";
 #portbanner {
-  background-image: url("../assets/img/port-banner.jpg");
+  background-image: url("../assets/img/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

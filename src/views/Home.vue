@@ -56,8 +56,8 @@ export default {
       fontawesomeclass:'fas fa-code'
     },
     skillscontents: {
-      title: "Hi! I'm Juani and I'm a Jr. Frontend Web Developer.",
-      subtitle: "I have 3 years and 6 months experience as a Jr. Web Developer specializing in front end development. <br>Developed Ecommerce, Informative Website and Travel Website. PSD to HTML/Website. <br>I also have experience of creating an informative website generating reusable components using Vue Js and Angular 8 - 9.",
+      title: "Hi! I'm Juani and I'm a Web Developer.",
+      subtitle: "I have 4 years and 6 months experience as a Web Developer specializing in front end development. <br>Developed Ecommerce, Informative Website and Travel Website. PSD to HTML/Website. <br>I also have experience of creating an informative website generating reusable components using Vue Js and Angular 8 - 9.",
       langtoolstitle:"Languages and Tools",
       tabstitlecontents: [
         {
@@ -216,56 +216,63 @@ export default {
           tabcontentid:'projtabs-1',
           contents: [
             {
-              projectimg:'../img/mnski.png',
+              projectimg:'../img/dbos.jpg',
+              projecttitle:'Dynamic Business Outsourcing Solutions',
+              projecttype:'Corporate Website',
+              projectyear:'2021',
+              projectposition:'Lead Developer',
+              projectlink:'https://dbos.com.au/'
+            },{
+              projectimg:'../img/mnski.jpg',
               projecttitle:'Mineski Global',
               projecttype:'Corporate Website',
               projectyear:'2020',
               projectposition:'Lead Developer',
               projectlink:'https://www.mineskiglobal.com/'
             },{
-              projectimg:'../img/crbn.png',
+              projectimg:'../img/crbn.jpg',
               projecttitle:'CarbonTrack UK',
               projecttype:'Corporate Website',
               projectyear:'2020',
               projectposition:'Lead Developer',
               projectlink:'https://carbontrackuk.co.uk/'
             },{
-              projectimg:'../img/dqtsi.png',
+              projectimg:'../img/dqtsi.jpg',
               projecttitle:'DynaQuest',
               projecttype:'Corporate Website',
               projectyear:'2020',
               projectposition:'Lead Developer',
               projectlink:'https://dqtsi.com/'
             },{
-              projectimg:'../img/sit.png',
+              projectimg:'../img/sit.jpg',
               projecttitle:'Situp PH',
               projecttype:'Informative Website',
               projectyear:'2019',
               projectposition:'Lead Developer',
               projectlink:'https://dqtsi.com/'
             },{
-              projectimg:'../img/sha.png',
+              projectimg:'../img/sha.jpg',
               projecttitle:'ShawarmaHouse PH',
               projecttype:'Informative Website',
               projectyear:'2018',
               projectposition:'Lead Developer',
               projectlink:'https://www.shawarmahouseph.com/'
             },{
-              projectimg:'../img/tgs.png',
+              projectimg:'../img/tgs.jpg',
               projecttitle:'The Greencross Saga',
               projecttype:'Informative Website',
               projectyear:'2018',
               projectposition:'Lead Developer',
               projectlink:'https://www.thegreencrosssaga.com/'
             },{
-              projectimg:'../img/comark.png',
+              projectimg:'../img/comark.jpg',
               projecttitle:'Comark PH',
               projecttype:'E-Commerce Website',
               projectyear:'2018',
               projectposition:'Lead Developer',
               projectlink:'https://comark.com.ph/'
             },{
-              projectimg:'../img/tyd.png',
+              projectimg:'../img/tyd.jpg',
               projecttitle:'TYD Automotive AU',
               projecttype:'E-Commerce Website',
               projectyear:'2018',
@@ -278,21 +285,21 @@ export default {
           tabcontentid:'projtabs-2',
           contents: [
             {
-              projectimg:'../img/gep.png',
+              projectimg:'../img/gep.jpg',
               projecttitle:'Gepstudies AU',
               projecttype:'Corporate Website',
               projectyear:'2019',
               projectposition:'Frontend Developer',
               projectlink:'https://www.gepstudies.com/'
             },{
-              projectimg:'../img/maj.png',
+              projectimg:'../img/maj.jpg',
               projecttitle:'Majestic Ventures Group',
               projecttype:'Corporate Website',
               projectyear:'2018',
               projectposition:'Frontend Developer',
               projectlink:'https://www.majesticventures.group/'
             },{
-              projectimg:'../img/noac.png',
+              projectimg:'../img/noac.jpg',
               projecttitle:'NOAC Consultant AU',
               projecttype:'Corporate Website',
               projectyear:'2018',
@@ -305,7 +312,7 @@ export default {
           tabcontentid:'projtabs-3',
           contents: [
             {
-              projectimg:'../img/gwf.png',
+              projectimg:'../img/gwf.jpg',
               projecttitle:'Global WebForce',
               projecttype:'Corporate Website',
               projectyear:'2017',
