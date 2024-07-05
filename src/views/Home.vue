@@ -51,13 +51,13 @@ export default {
     bannercontent: {
     
       img:"../img/port-img.png",
-      title: "Frontend Developer",
+      title: "Web Developer",
       // subtitle: "Let's bring your designs to life.",
       fontawesomeclass:'fas fa-code'
     },
     skillscontents: {
       title: "Hi! I'm Juani and I'm a Web Developer.",
-      subtitle: "I have 4 years and 6 months experience as a Web Developer specializing in front end development. <br>Developed Ecommerce, Informative Website and Travel Website. PSD to HTML/Website. <br>I also have experience of creating an informative website generating reusable components using Vue Js and Angular 8 - 9.",
+      subtitle: "I have 5 years and 6 months experience as a Web Developer specializing in front end development. <br>Developed Ecommerce, Informative Website and Travel Website. PSD to HTML/Website. <br>I also have experience of creating an informative website generating reusable components using Vue Js and Angular 8 - 9.",
       langtoolstitle:"Languages and Tools",
       tabstitlecontents: [
         {
@@ -216,6 +216,41 @@ export default {
           tabcontentid:'projtabs-1',
           contents: [
             {
+              projectimg:'../img/grey.jpg',
+              projecttitle:'Grey Legal',
+              projecttype:'Corporate Lawyer Website',
+              projectyear:'2022',
+              projectposition:'Lead Developer',
+              projectlink:'https://www.greylegal.com.au/'
+            },{
+              projectimg:'../img/alpha.jpg',
+              projecttitle:'Alpha Car Hire',
+              projecttype:'Corporate Website',
+              projectyear:'2022',
+              projectposition:'Lead Frontend Developer',
+              projectlink:'https://alphacarhire.com.au/'
+            },{
+              projectimg:'../img/ca.jpg',
+              projecttitle:'College Australia',
+              projecttype:'School Website',
+              projectyear:'2022',
+              projectposition:'Lead Developer',
+              projectlink:'https://collegeaustralia.edu.au/'
+            },{
+              projectimg:'../img/kode.jpg',
+              projecttitle:'Kode <br>Access',
+              projecttype:'E-Commerce Website',
+              projectyear:'2022',
+              projectposition:'Lead Developer',
+              projectlink:'https://kodeaccess.com.au/'
+            },{
+              projectimg:'../img/sengs.jpg',
+              projecttitle:'SENGS <br>Sales & Service',
+              projecttype:'Informative E-Commerce Level Website',
+              projectyear:'2022',
+              projectposition:'Lead Developer',
+              projectlink:'https://sengs.com.au/'
+            },{
               projectimg:'../img/dbos.jpg',
               projecttitle:'Dynamic Business Outsourcing Solutions',
               projecttype:'Corporate Website',

@@ -5,7 +5,7 @@
     >
       <div class="row">
         <div class="col-md-12">
-          <img data-aos="flip-left" data-aos-duration="1500" :src="bannerContent.img" alt="port-img" />
+          <img data-aos="fade" data-aos-duration="1500" :src="bannerContent.img" alt="port-img" />
           <h1  v-html="bannerContent.title" class="line-1 anim-typewriter"></h1>
           <p data-aos="fade-in" data-aos-duration="1500" v-html="bannerContent.subtitle"></p>
           <br />
