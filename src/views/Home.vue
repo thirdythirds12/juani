@@ -52,8 +52,8 @@ export default {
       img:"/img/port-img.png",
       title: "Web Developer",
       name: "Juanito L. Parafina III",
-      subtitle: "I have <strong>9 years</strong> as a Web Developer specializing in front end development. Developed Ecommerce, Informative Website and Travel Website. PSD to HTML/Website. I also have experience of creating an informative website generating reusable components using Vue Js and Angular 8 - 9.",
-      fontawesomeclass:'fas fa-code'
+      subtitle: "I build responsive websites, SaaS landing pages, and reusable front-end components for brands that need fast, modern digital experiences. With <strong>9+ years</strong> of experience.",
+      fontawesomeclass:'fas fa-laptop-code'
     },
     skillscontents: {
      langtoolstitle:"Languages and Tools",
@@ -67,13 +67,17 @@ export default {
           tabtitleclass:'nav-link ',
           tabtitlelink:'#tabs-2'
         }, {
-          tabtitle:'Deployment / Tools',
+          tabtitle:'Project Management',
           tabtitleclass:'nav-link ',
           tabtitlelink:'#tabs-3'
         }, {
-          tabtitle:'Software / Hardware',
+          tabtitle:'Deployment / Tools',
           tabtitleclass:'nav-link ',
           tabtitlelink:'#tabs-4'
+        }, {
+          tabtitle:'Software / Hardware',
+          tabtitleclass:'nav-link ',
+          tabtitlelink:'#tabs-5'
         }
       ],
       tabscontent: [
@@ -131,8 +135,8 @@ export default {
             {
               content:'PHP',
               fontawesomeclass:'fab fa-php php-c',
-              progressbarid:'fifty',
-              percentagecontent:'50%'
+              progressbarid:'eighty',
+              percentagecontent:'80%'
             }, {
               content:'MySQL / MariaDB',
               fontawesomeclass:'fas fa-database default-c',
@@ -143,6 +147,36 @@ export default {
         },{
           tabcontentclass:'tab-pane ',
           tabcontentid:'tabs-3',
+          contents: [
+            {
+              content:'ClickUp',
+              imgsrc:'https://cdn.simpleicons.org/clickup/7B68EE',
+              fontawesomeclass:'fas fa-clipboard-check default-c',
+              progressbarid:'seventy',
+              percentagecontent:'70%'
+            },{
+              content:'Asana',
+              imgsrc:'https://cdn.simpleicons.org/asana/FF6B6B',
+              fontawesomeclass:'fab fa-asana default-c',
+              progressbarid:'seventy',
+              percentagecontent:'70%'
+            },{
+              content:'Trello',
+              imgsrc:'https://cdn.simpleicons.org/trello/0055CC',
+              fontawesomeclass:'fab fa-trello trello-c',
+              progressbarid:'seventy',
+              percentagecontent:'70%'
+            },{
+              content:'BaseCamp',
+              imgsrc:'https://cdn.simpleicons.org/basecamp/8B7A5E',
+              fontawesomeclass:'fab fa-basecamp default-c',
+              progressbarid:'seventy',
+              percentagecontent:'70%'
+            }
+          ]
+        },{
+          tabcontentclass:'tab-pane ',
+          tabcontentid:'tabs-4',
           contents: [
             {
               content:'NPM',
@@ -168,7 +202,7 @@ export default {
           ]
         },{
           tabcontentclass:'tab-pane ',
-          tabcontentid:'tabs-4',
+          tabcontentid:'tabs-5',
           contents: [
             {
               content:'Office Work',
@@ -214,6 +248,69 @@ export default {
           tabcontentid:'projtabs-1',
           contents: [
             {
+              projectimg:'../img/smartperformance.jpg',
+              projecttitle:'Smart Performance',
+              projecttype:'Health & Performance Website',
+              projectyear:'2026',
+              projectposition:'Lead Developer / Project Manager',
+              projectlink:'https://smartperformance.ca/'
+            },{
+              projectimg:'../img/krakensec.jpg',
+              projecttitle:'Kraken Security',
+              projecttype:'Security Services Website',
+              projectyear:'2026',
+              projectposition:'Lead Developer / Project Manager',
+              projectlink:'https://www.krakensec.ca/'
+            },{
+              projectimg:'../img/innovativelightsiowa.jpg',
+              projecttitle:'Innovative Lights Iowa',
+              projecttype:'Outdoor Lighting Website',
+              projectyear:'2026',
+              projectposition:'Lead Developer / Project Manager',
+              projectlink:'https://innovativelightsiowa.com/'
+            },{
+              projectimg:'../img/titanlogix.jpg',
+              projecttitle:'Titan Logix',
+              projecttype:'Industrial Measurement Website',
+              projectyear:'2026',
+              projectposition:'Lead Developer / Project Manager',
+              projectlink:'https://titanlogix.com/'
+            },{
+              projectimg:'../img/raincoastelectric.jpg',
+              projecttitle:'Raincoast Electric',
+              projecttype:'Electrical Services Website',
+              projectyear:'2026',
+              projectposition:'Lead Developer / Project Manager',
+              projectlink:'https://raincoastelectric.ca/'
+            },{
+              projectimg:'../img/expresselectricinc.jpg',
+              projecttitle:'Express Electric Inc',
+              projecttype:'Electrical Services Website',
+              projectyear:'2026',
+              projectposition:'Lead Developer / Project Manager',
+              projectlink:'https://expresselectricinc.ca/'
+            },{
+              projectimg:'../img/xcessive.jpg',
+              projecttitle:'Xcessive',
+              projecttype:'Vehicle Graphics Website',
+              projectyear:'2026',
+              projectposition:'Lead Developer / Project Manager',
+              projectlink:'https://xcessive.ca/'
+            },{
+              projectimg:'../img/astorialighting.jpg',
+              projecttitle:'Astoria Lighting',
+              projecttype:'Permanent Lighting Website',
+              projectyear:'2026',
+              projectposition:'Lead Developer / Project Manager',
+              projectlink:'https://astorialighting.ca/'
+            },{
+              projectimg:'../img/halocustomlighting.jpg',
+              projecttitle:'Halo Custom Lighting',
+              projecttype:'Outdoor Lighting Website',
+              projectyear:'2026',
+              projectposition:'Lead Developer / Project Manager',
+              projectlink:'https://halocustomlighting.com/'
+            },{
               projectimg:'../img/vit.jpg',
               projecttitle:'Vitalis Health',
               projecttype:'Healthcare Services Website',

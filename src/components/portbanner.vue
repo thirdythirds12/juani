@@ -3,13 +3,16 @@
     <div class="container py-5">
       <div class="row align-items-center g-4">
         <div class="col-lg-6 order-2 order-lg-1 text-left d-flex flex-column justify-content-center">
-          <span class="hero-tag" data-aos="fade-up" data-aos-duration="1200">Creative Developer</span>
           <i class="hero-icon" data-aos="fade-up" data-aos-duration="1300" :class="bannerContent.fontawesomeclass"></i>
           <h1 class="line-1 anim-typewriter" data-aos="fade-up" data-aos-duration="1400" v-html="bannerContent.title"></h1>
           <h3 data-aos="fade-up" data-aos-duration="1500" v-if="bannerContent.name" v-html="bannerContent.name"></h3>
           <p data-aos="fade-up" data-aos-duration="1600" v-html="bannerContent.subtitle"></p>
+          <div class="hero-actions" data-aos="fade-up" data-aos-duration="1700">
+            <a href="#projects" class="btn btn-hero btn-hero--primary">View Projects</a>
+            <a href="mailto:juaniparafina@gmail.com" class="btn btn-hero btn-hero--ghost">Let’s Talk</a>
+          </div>
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 text-center">
+        <div class="col-lg-6 order-1 order-lg-2 text-center pb-5">
           <img class="hero-portrait" data-aos="zoom-in" data-aos-duration="1500" :src="bannerContent.img" alt="Juanito Llera Parafina III" />
         </div>
       </div>
@@ -80,7 +83,38 @@ export default {
     color: rgba(255, 255, 255, 0.92);
     font-size: 1.03rem;
     max-width: 35rem;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.25rem;
+
+    .btn-hero {
+      border-radius: 999px;
+      padding: 0.65rem 1rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+      &:hover {
+        transform: translateY(-1px);
+      }
+    }
+
+    .btn-hero--primary {
+      background: linear-gradient(135deg, #fff, #d9efff);
+      color: #0b1f35;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+    }
+
+    .btn-hero--ghost {
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      background: rgba(255, 255, 255, 0.08);
+      color: #eff7ff;
+    }
   }
 
   .hero-icon {
