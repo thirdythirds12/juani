@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div class="home">
     <portnavbar :navbar-content="navbarcontent"></portnavbar>
     <portbanner :banner-content="bannercontent"></portbanner>
@@ -225,8 +225,8 @@ export default {
       ]
     },
     projcontents: {
-      title: "Projects",
-      subtitle: "Here are some of the projects I have participated.",
+      title: "A few places I’ve helped build and lead.",
+      subtitle: "Great design starts with clarity, collaboration, and strong digital leadership.",
       tabstitlecontents: [
         {
           tabtitle:'Wordpress',
@@ -253,203 +253,307 @@ export default {
               projecttype:'Health & Performance Website',
               projectyear:'2026',
               projectposition:'Lead Developer / Project Manager',
-              projectlink:'https://smartperformance.ca/'
-            },{
+              projectlink:'https://smartperformance.ca/',
+              projectsummary:'Health and performance business website focused on wellness, service credibility, and customer conversion.',
+              projecthosting:'Pressable',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','https://bricksbuilder.io/wp-content/uploads/2023/07/bricks-logo.svg']
+            },
+            {
               projectimg:'../img/krakensec.jpg',
               projecttitle:'Kraken Security',
               projecttype:'Security Services Website',
               projectyear:'2026',
               projectposition:'Lead Developer / Project Manager',
-              projectlink:'https://www.krakensec.ca/'
-            },{
+              projectlink:'https://www.krakensec.ca/',
+              projectsummary:'Security services business website designed to build trust, highlight expertise, and generate leads.',
+              projecthosting:'Pressable',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','https://bricksbuilder.io/wp-content/uploads/2023/07/bricks-logo.svg']
+            },
+            {
               projectimg:'../img/innovativelightsiowa.jpg',
               projecttitle:'Innovative Lights Iowa',
               projecttype:'Outdoor Lighting Website',
               projectyear:'2026',
               projectposition:'Lead Developer / Project Manager',
-              projectlink:'https://innovativelightsiowa.com/'
-            },{
+              projectlink:'https://innovativelightsiowa.com/',
+              projectsummary:'Outdoor lighting company website focused on product presentation, local service positioning, and lead generation.',
+              projecthosting:'Pressable',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','https://bricksbuilder.io/wp-content/uploads/2023/07/bricks-logo.svg']
+            },
+            {
               projectimg:'../img/titanlogix.jpg',
               projecttitle:'Titan Logix',
               projecttype:'Industrial Measurement Website',
               projectyear:'2026',
               projectposition:'Lead Developer / Project Manager',
-              projectlink:'https://titanlogix.com/'
-            },{
+              projectlink:'https://titanlogix.com/',
+              projectsummary:'Industrial technology business website built to explain complex products and reinforce technical credibility.',
+              projecthosting:'Pressable',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','https://bricksbuilder.io/wp-content/uploads/2023/07/bricks-logo.svg']
+            },
+            {
               projectimg:'../img/raincoastelectric.jpg',
               projecttitle:'Raincoast Electric',
               projecttype:'Electrical Services Website',
               projectyear:'2026',
               projectposition:'Lead Developer / Project Manager',
-              projectlink:'https://raincoastelectric.ca/'
-            },{
+              projectlink:'https://raincoastelectric.ca/',
+              projectsummary:'Electrical services company website focused on local trust, service clarity, and customer enquiries.',
+              projecthosting:'Pressable',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','https://bricksbuilder.io/wp-content/uploads/2023/07/bricks-logo.svg']
+            },
+            {
               projectimg:'../img/expresselectricinc.jpg',
               projecttitle:'Express Electric Inc',
               projecttype:'Electrical Services Website',
               projectyear:'2026',
               projectposition:'Lead Developer / Project Manager',
-              projectlink:'https://expresselectricinc.ca/'
-            },{
+              projectlink:'https://expresselectricinc.ca/',
+              projectsummary:'Electrical contracting business website designed around service pages, credibility, and stronger lead capture.',
+              projecthosting:'Pressable',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','https://bricksbuilder.io/wp-content/uploads/2023/07/bricks-logo.svg']
+            },
+            {
               projectimg:'../img/xcessive.jpg',
               projecttitle:'Xcessive',
               projecttype:'Vehicle Graphics Website',
               projectyear:'2026',
               projectposition:'Lead Developer / Project Manager',
-              projectlink:'https://xcessive.ca/'
-            },{
+              projectlink:'https://xcessive.ca/',
+              projectsummary:'Vehicle graphics and branding business website designed to showcase work and attract commercial leads.',
+              projecthosting:'Pressable',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','https://bricksbuilder.io/wp-content/uploads/2023/07/bricks-logo.svg']
+            },
+            {
               projectimg:'../img/astorialighting.jpg',
               projecttitle:'Astoria Lighting',
               projecttype:'Permanent Lighting Website',
               projectyear:'2026',
               projectposition:'Lead Developer / Project Manager',
-              projectlink:'https://astorialighting.ca/'
-            },{
+              projectlink:'https://astorialighting.ca/',
+              projectsummary:'Permanent lighting business website focused on premium branding, product storytelling, and conversion.',
+              projecthosting:'Pressable',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','https://bricksbuilder.io/wp-content/uploads/2023/07/bricks-logo.svg']
+            },
+            {
               projectimg:'../img/halocustomlighting.jpg',
               projecttitle:'Halo Custom Lighting',
               projecttype:'Outdoor Lighting Website',
               projectyear:'2026',
               projectposition:'Lead Developer / Project Manager',
-              projectlink:'https://halocustomlighting.com/'
-            },{
+              projectlink:'https://halocustomlighting.com/',
+              projectsummary:'Custom lighting company website focused on premium positioning, service clarity, and customer enquiry flow.',
+              projecthosting:'Pressable',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','https://bricksbuilder.io/wp-content/uploads/2023/07/bricks-logo.svg']
+            },
+            {
               projectimg:'../img/vit.jpg',
               projecttitle:'Vitalis Health',
               projecttype:'Healthcare Services Website',
               projectyear:'2025',
               projectposition:'Lead Developer',
-              projectlink:'https://vitalis.health/'
-            },{
+              projectlink:'https://vitalis.health/',
+              projectsummary:'Healthcare provider website focused on patient trust, service clarity, and appointment-led conversion.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','fab fa-elementor']
+            },
+            {
               projectimg:'../img/us.jpg',
               projecttitle:'Better Days US',
               projecttype:'Healthcare Services Website',
               projectyear:'2025',
               projectposition:'Lead / In-house Developer',
-              projectlink:'https://betterdays.us/'
-            },{
+              projectlink:'https://betterdays.us/',
+              projectsummary:'Healthcare services website focused on patient support, care messaging, and easy enquiry conversion.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','fab fa-elementor']
+            },
+            {
               projectimg:'../img/uk.jpg',
               projecttitle:'Better Days UK',
               projecttype:'Healthcare Services Website',
               projectyear:'2023 - 25',
               projectposition:'Lead / In-house Developer',
-              projectlink:'https://betterdays.uk/'
-            },{
+              projectlink:'https://betterdays.uk/',
+              projectsummary:'Healthcare brand website designed around accessibility, service clarity, and patient-focused communication.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','fab fa-elementor']
+            },
+            {
               projectimg:'../img/nz.jpg',
               projecttitle:'Better Days NZ',
               projecttype:'Healthcare Services Website',
               projectyear:'2023 - 25',
               projectposition:'Lead / In-house Developer',
-              projectlink:'https://betterdays.nz/'
-            },{
+              projectlink:'https://betterdays.nz/',
+              projectsummary:'Healthcare services website built for trust, service visibility, and a clearer patient journey.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','fab fa-elementor']
+            },
+            {
               projectimg:'../img/br.jpg',
               projecttitle:'Better Rehab AU',
               projecttype:'Healthcare Services Website',
               projectyear:'2023 - 25',
               projectposition:'Lead / In-house Developer',
-              projectlink:'https://betterrehab.com.au/'
-            },{
+              projectlink:'https://betterrehab.com.au/',
+              projectsummary:'Rehabilitation services website focused on care messaging, trust, and conversion for new enquiries.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','fab fa-elementor']
+            },
+            {
               projectimg:'../img/six.jpg',
               projecttitle:'Sixgun',
               projecttype:'Digital Marketing Website',
               projectyear:'2023',
               projectposition:'Lead Developer',
-              projectlink:'https://sixgun.com.au/'
-            },{
+              projectlink:'https://sixgun.com.au/',
+              projectsummary:'Digital marketing business website focused on brand visibility, service positioning, and lead generation.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','fab fa-elementor']
+            },
+            {
               projectimg:'../img/grey.jpg',
               projecttitle:'Grey Legal',
               projecttype:'Corporate Lawyer Website',
               projectyear:'2022',
               projectposition:'Lead Developer',
-              projectlink:'https://www.greylegal.com.au/'
-            },{
+              projectlink:'https://www.greylegal.com.au/',
+              projectsummary:'Law firm website focused on professionalism, trust, and clear service information for prospective clients.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','fab fa-elementor']
+            },
+            {
               projectimg:'../img/alpha.jpg',
               projecttitle:'Alpha Car Hire',
               projecttype:'Corporate Website',
               projectyear:'2022',
               projectposition:'Lead Frontend Developer',
-              projectlink:'https://alphacarhire.com.au/'
-            },{
+              projectlink:'https://alphacarhire.com.au/',
+              projectsummary:'Car hire company website structured around booking ease, service transparency, and customer conversion.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','https://surniaulula.com/wp-content/uploads/2018/09/wp-bakery-logo-1200x1200-cropped.jpg']
+            },
+            {
               projectimg:'../img/ca.jpg',
               projecttitle:'College Australia',
               projecttype:'School Website',
               projectyear:'2022',
               projectposition:'Lead Developer',
-              projectlink:'https://collegeaustralia.edu.au/'
-            },{
+              projectlink:'https://collegeaustralia.edu.au/',
+              projectsummary:'Education and training website focused on course clarity, student engagement, and institutional credibility.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','fab fa-elementor']
+            },
+            {
               projectimg:'../img/kode.jpg',
               projecttitle:'Kode <br>Access',
               projecttype:'E-Commerce Website',
               projectyear:'2022',
               projectposition:'Lead Developer',
-              projectlink:'https://kodeaccess.com.au/'
-            },{
+              projectlink:'https://kodeaccess.com.au/',
+              projectsummary:'Access solutions and hardware business website focused on product browsing, trust, and enquiry conversion.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','fab fa-elementor']
+            },
+            {
               projectimg:'../img/sengs.jpg',
               projecttitle:'SENGS <br>Sales & Service',
               projecttype:'Informative E-Commerce Level Website',
               projectyear:'2022',
               projectposition:'Lead Developer',
-              projectlink:'https://sengs.com.au/'
-            },{
+              projectlink:'https://sengs.com.au/',
+              projectsummary:'Service and product business website focused on navigation, trust, and smoother customer discovery.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','fab fa-elementor']
+            },
+            {
               projectimg:'../img/dbos.jpg',
               projecttitle:'Dynamic Business Outsourcing Solutions',
               projecttype:'Corporate Website',
               projectyear:'2021',
               projectposition:'Lead Developer',
-              projectlink:'https://dbos.com.au/'
-            },{
-              projectimg:'../img/mnski.jpg',
-              projecttitle:'Mineski Global',
-              projecttype:'Corporate Website',
-              projectyear:'2020',
-              projectposition:'Lead Developer',
-              projectlink:'https://www.mineskiglobal.com/'
-            },{
+              projectlink:'https://dbos.com.au/',
+              projectsummary:'Business outsourcing and consulting website designed to communicate services, expertise, and lead generation.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square','fab fa-elementor']
+            },
+            {
               projectimg:'../img/crbn.jpg',
               projecttitle:'CarbonTrack UK',
               projecttype:'Corporate Website',
               projectyear:'2020',
               projectposition:'Lead Developer',
-              projectlink:'https://carbontrackuk.co.uk/'
-            },{
+              projectlink:'https://carbontrackuk.co.uk/',
+              projectsummary:'Sustainability and carbon management website focused on trust, clarity, and business credibility.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square']
+            },
+            {
               projectimg:'../img/dqtsi.jpg',
               projecttitle:'DynaQuest',
               projecttype:'Corporate Website',
               projectyear:'2020',
               projectposition:'Lead Developer',
-              projectlink:'https://dqtsi.com/'
-            },{
+              projectlink:'https://dqtsi.com/',
+              projectsummary:'Corporate business website built around clearer messaging, stronger brand presence, and service positioning.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square']
+            },
+            {
               projectimg:'../img/sit.jpg',
               projecttitle:'Situp PH',
               projecttype:'Informative Website',
               projectyear:'2019',
               projectposition:'Lead Developer',
-              projectlink:'https://dqtsi.com/'
-            },{
+              projectlink:'https://dqtsi.com/',
+              projectsummary:'Informational brand website designed to improve clarity, communication, and audience engagement.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square']
+            },
+            {
               projectimg:'../img/sha.jpg',
               projecttitle:'ShawarmaHouse PH',
               projecttype:'Informative Website',
               projectyear:'2018',
               projectposition:'Lead Developer',
-              projectlink:'https://www.shawarmahouseph.com/'
-            },{
+              projectlink:'https://www.shawarmahouseph.com/',
+              projectsummary:'Restaurant website focused on menu clarity, convenience, and stronger customer engagement.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square']
+            },
+            {
               projectimg:'../img/tgs.jpg',
               projecttitle:'The Greencross Saga',
               projecttype:'Informative Website',
               projectyear:'2018',
               projectposition:'Lead Developer',
-              projectlink:'https://www.thegreencrosssaga.com/'
-            },{
+              projectlink:'https://www.thegreencrosssaga.com/',
+              projectsummary:'Informational website built around storytelling, readability, and clearer brand communication.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square']
+            },
+            {
               projectimg:'../img/comark.jpg',
               projecttitle:'Comark PH',
               projecttype:'E-Commerce Website',
               projectyear:'2018',
               projectposition:'Lead Developer',
-              projectlink:'https://comark.com.ph/'
-            },{
+              projectlink:'https://comark.com.ph/',
+              projectsummary:'Retail business website designed to improve product visibility and customer browsing experience.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square']
+            },
+            {
               projectimg:'../img/tyd.jpg',
               projecttitle:'TYD Automotive AU',
               projecttype:'E-Commerce Website',
               projectyear:'2018',
               projectposition:'Lead Developer',
-              projectlink:'https://tydautomotive.com.au/'
+              projectlink:'https://tydautomotive.com.au/',
+              projectsummary:'Automotive business website focused on product clarity, browsing ease, and stronger customer conversion.',
+              projecthosting:'Apache / cPanel',
+              projectstack:['fab fa-wordpress','fab fa-php','fab fa-html5','fab fa-css3-alt','fab fa-sass','fab fa-bootstrap','fab fa-js-square']
             }
           ]
         },{
@@ -496,7 +600,8 @@ export default {
       ]
     },
     ctacontents: {
-      title:'Contact & Social Media Details',
+      title:'Feel free to reach out!',
+      subtitle:'',
       contents: [
          {
           fontawesomeclass:'fas fa-mobile',
@@ -523,3 +628,5 @@ export default {
   })
 };
 </script>
+
+

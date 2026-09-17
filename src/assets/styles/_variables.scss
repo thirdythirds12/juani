@@ -1,15 +1,20 @@
 //imports
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600;700;800&display=swap');
-// FOnts
-$primary_font: 'Open Sans',
-sans-serif;
-$secondary_font:'Montserrat',
-sans-serif;
-// Color
-$dark-blue:#05386B;
-$blue-green:#379683;
-$light-green:#5cdb95;
-$mint-green:#8ee4af;
-$dirty-white:#edf5e1;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+// Fonts
+$primary_font: 'Manrope', sans-serif;
+$secondary_font: 'Inter', sans-serif;
+
+// Brand colors
+$dark-blue: #072d4b;
+$deep-navy: #041f35;
+$blue-green: #6ec3c5;
+$light-green: #bef2df;
+$mint-green: #bfe8d9;
+$dirty-white: #edf5ef;
+$warm-ivory: #ece4da;
+$soft-sand: #efe8df;
+$ink: #0d2338;
+$muted: #577189;
+$panel: #f4efe9;
