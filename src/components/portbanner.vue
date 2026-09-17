@@ -133,8 +133,8 @@ export default {
   }
 
   .hero-portrait {
-    width: min(100%, 420px);
-    max-width: 100%;
+    width: 100%;
+    max-width: 420px;
     height: auto;
     border-radius: 1.5rem;
     object-fit: cover;

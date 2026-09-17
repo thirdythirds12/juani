@@ -303,7 +303,8 @@ export default {
 
     &__dialog {
       position: relative;
-      width: min(1200px, 100%);
+      width: 100%;
+      max-width: 1200px;
       background: #eff4f8;
       border-radius: 18px;
       overflow: hidden;
